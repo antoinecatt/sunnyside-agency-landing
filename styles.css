@@ -18,11 +18,54 @@ a {
 }
 
 .hero {
-  background-image: url("./images/desktop/image-header.jpg");
+  background: url("./images/desktop/image-header.jpg") no-repeat;
   background-size: cover;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   color: white;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+}
+
+.nav-link {
+  margin: 0 25px;
+  font-size: 18px;
+}
+
+.active {
+  border: 1px white solid;
+  border-radius: 50px;
+  background-color: white;
+  padding: 15px 30px;
+  color: black;
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.hero-tagline {
+  font-size: 56px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 7.5% auto;
+  letter-spacing: 7.5px;
 }
 
 .attribution {

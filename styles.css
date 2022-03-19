@@ -6,6 +6,7 @@
 
 body {
   font-family: "Barlow", sans-serif;
+  font-size: 18px;
 }
 
 h1,
@@ -68,6 +69,22 @@ a {
   margin: 7.5% auto;
   letter-spacing: 7.5px;
 }
+ 
+.services {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.services img {
+  display: block;
+  width: 100%;
+}
+
+/* .item {
+  border: 1px solid blue;
+  margin: 5px;
+} */
 
 .attribution {
   font-size: 11px;

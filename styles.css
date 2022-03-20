@@ -81,10 +81,25 @@ a {
   width: 100%;
 }
 
-/* .item {
-  border: 1px solid blue;
-  margin: 5px;
-} */
+.testimonials {
+  padding: 10%;
+  height: 100%;
+}
+
+.testimonials h3 {
+  margin-top: 160px;
+  margin-bottom: 210px;
+  text-align: center;
+}
+
+.testimonials h4 {
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+
+.testimonials-container {
+  display: flex;
+}
 
 .attribution {
   font-size: 11px;

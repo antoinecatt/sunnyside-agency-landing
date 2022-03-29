@@ -118,6 +118,29 @@ a {
   width: 120px;
 }
 
+.cherry-container,
+.orange-container {
+  position: relative;
+}
+
+.cherry-img-text,
+.orange-img-text {
+  position: absolute;
+}
+
+.cherry-img-text,
+.orange-img-text {
+  left: 25%;
+  bottom: 30px;
+  width: 340px;
+}
+
+.cherry-img-text p,
+.orange-img-text p {
+  font-size: 16px;
+  text-align: center;
+}
+
 .testimonials {
   padding: 10%;
   height: 100%;

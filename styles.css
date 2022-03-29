@@ -56,16 +56,29 @@ a {
   font-size: 18px;
 }
 
-.active {
+.nav-link a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.active a {
   border: 1px white solid;
   border-radius: 50px;
   background-color: white;
+  color: black;
   padding: 15px 30px;
   color: black;
   font-family: "Fraunces", serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 13.5px;
+}
+
+.active a:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  border: none;
+  color: white;
 }
 
 .hero-tagline {
@@ -97,7 +110,7 @@ a {
 .item h2,
 .item a,
 .item p {
-  text-align: justify;
+  text-align: left;
 }
 
 .item h2 {

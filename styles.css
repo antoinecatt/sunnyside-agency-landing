@@ -22,6 +22,7 @@ a {
 
 .hero {
   background: url("./images/desktop/image-header.jpg") no-repeat;
+  background-position: center;
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -141,8 +142,21 @@ a {
   text-align: center;
 }
 
+.cherry-img-text,
+.cherry-img-text p {
+  color: #24554a;
+}
+
+.orange-img-text {
+  color: #052c3b;
+}
+
+.orange-img-text p {
+  color: #19536c;
+}
+
 .testimonials {
-  padding: 10%;
+  padding: 0 10%;
   height: 100%;
 }
 
@@ -150,6 +164,10 @@ a {
   margin-top: 160px;
   margin-bottom: 81px;
   text-align: center;
+  color: #a7aaad;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
 }
 
 .testimonials h4 {
